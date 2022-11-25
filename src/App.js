@@ -1,10 +1,11 @@
 
-import './App.css';
+
+import Layout from './Layout/Layout';
 
 function App() {
   return (
-    <div className="App bg-gray-600">
-       <h1 className='text-lg uppercase text-orange-600'>This is layout</h1>
+    <div className="">
+       <Layout />
     </div>
   );
 }
